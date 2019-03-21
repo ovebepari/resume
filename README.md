@@ -1,4 +1,4 @@
-resume
+Resume
 ======
 
-Jessica Su's CV and resume
+Ove Bepari's CV and resume
