@@ -20,6 +20,7 @@
 \usepackage{color}
 \definecolor{mygrey}{gray}{0.80}
 \usepackage{hyperref} 
+\usepackage{multicol}
 
 \usepackage{xcolor}
 \hypersetup{
@@ -61,50 +62,45 @@
 
 \begin{document}
 
-	\begin{tabular*}{7.5in}{l@{\extracolsep{\fill}}}
-		\\
-		\\
-		\\
-		\textbf{\large Ove Bepari}\\
-		\\
-		Dhaka, Bangladesh, \href{mailto:ovebepari@gmail.com}{ove****@gmail.com}, +880-1679122xxx, \textbf{Github}: \href{https://github.com/ovebepari}{@ovebepari}, LinkedIn: \href{https://linkedin.com/in/ovebepari}{@ovebepari} \\
-		 Blog: \url{https://ovebepari.github.io}, Twitter: \href{https://twitter.com/ovebepari}{@ovebepari}
-		\\
-		\\
-		I am a tech enthusiast, a hobbyist \href{https://ovebepari.github.io/Random_writings/my-cooking-story/}{chef} and \href{https://ovebepari.github.io/photography/}{street photographer}, a generalist graduate, explored a lot of \textbf{abstraction layers}\\ of CS and prefer to stay in the bottom layers, away from the general users and closer to the system. I find how\\ two abstraction layers communicate with each other (IPC, API, RPC etc) interesting.
-	\end{tabular*}
-	
-	\vspace{0.25in}
-	
-	\resheading{Education}
-	\begin{itemize}
-	
-		\item \ressubheading{Dhaka University of Engineering \& Technology, Gazipur}{}{}{February 2018 - Aug 2022}
-		\begin{itemize}
-			\item BSc, Computer Science and Engineering
-		\end{itemize}
+    \begin{center}
+        \textbf{\Large Ove Bepari} \\
+        Dhaka, Bangladesh \\
+        \href{mailto:ove****@gmail.com}{ove****@gmail.com} \quad
+        +880-1679122xxx \\
+        \href{https://github.com/ovebepari}{github.com/ovebepari} \quad
+        \href{https://linkedin.com/in/ovebepari}{linkedin.com/in/ovebepari} \\
+        \href{https://ovebepari.github.io}{ovebepari.github.io} \quad
+    \end{center}
 
-	\end{itemize}
+    \vspace{0.20in}
+	Tech enthusiast and systems-oriented generalist with a passion for low-level abstractions, distributed computing,  inter-process communication, and operating system design. Experienced in DevOps, backend systems, and Linux internals. I enjoy exploring how abstraction layers interact—from syscalls to APIs.
 	
-	\vspace{0.20in}
-	
+	\vspace{0.15in}
 	\resheading{Work Experiences}
 	\begin{itemize}
 	
-		\item \ressubheading{Associate DevOps - Therap BD Ltd.}{}{}{August 2022 - Now}
-		\begin{itemize} 
-			\item \href{https://therapbd.com/}{Therap (BD) Ltd.} is a US-based Software Company registered in Bangladesh, operating since 2004. Therap provides Software as a Service (SaaS) to government and private organizations globally that serve people with intellectual and developmental disabilities
-			\item Built, Deployed and Monitored the Therap App, a 400MB+ Java Application that runs on the Weblogic Server and Oracle DB (Oracle Linux stack) 
+		\item \ressubheading{DevOps Engineer - Therap BD Ltd.}{}{}{August 2022 - Now}
+		
+        \vspace{0.05in}
+        Therap - US-based SaaS provider for disability services organizations, including US government clients.
+        
+        \begin{itemize} 
+        
+        \item Deploy, maintain, and troubleshoot JVM-based applications—including a 500MB+ monolith on WebLogic and Oracle DB—across Oracle Linux and cloud environments.
+    
+        \item Built and managed observability pipelines with Vector (log transformation) and Falcon LogScale (real-time queries) for visibility into system behavior.
+    
+        \item Investigate performance bottlenecks and system anomalies across networked Java modules using Wireshark, system logs, JFR-JMC and deep-dive debugging.
+        
 		\end{itemize}	
 	
-		\item \ressubheading{Backend Engineer - TicketBD}{}{}{February 2016 - 2017}
+		\item \ressubheading{Backend Engineer - TicketBD (early-stage startup)}{}{}{February 2016 - 2017}
 		\begin{itemize} 
-			\item \href{https://www.facebook.com/ticketbd.online}{TicketBD}, lauched on Sayedabad, Dhaka to sell bus tickets. \textbf{Designed} and \textbf{implemented} this PHP backend application, handled multiple buy requests to the same "bus seat" using caching. Worked here when I was in college.
+			\item TicketBD, lauched in Sayedabad, Dhaka to sell bus tickets. \textbf{Designed} and \textbf{implemented} this PHP backend application, handled multiple buy requests to the same "bus seat" using caching. Worked here when I was in college.
 		\end{itemize}
 	\end{itemize}
 
-	\vspace{0.20in}
-	
+	\vspace{0.15in}
 	\resheading{Technical Skills and Projects}
 	\begin{itemize}  
 		\item Algorithmic \textbf{Problem Solving} (400+ and counting), InfoSec \textbf{Security Contests} (\href{https://tryhackme.com/p/dovi}{dovi-0x06 @THM}), C++, Python, GNU/Linux systems (5+ years), Web Frameworks / MVC architecture, Apache, Git, OSI Layers, Database \& DBMS. I notice and enjoy other's design choices (UI/UX, System Architecture, Typography etc)
@@ -121,44 +117,40 @@
 		\item \textbf{Writing:} I write and investigate about \textbf{Systems}, \textbf{System Architecture}, \textbf{GNU/Linux}, \href{https://ovebepari.github.io/linux\%7Csystems/docker-socket-tale/}{Software Daemons}, \textbf{File Systems} (undergrad thesis on file systems on user space), \textbf{Syscalls} (strace!), Infosec, \href{https://ovebepari.github.io/Computer-Networking-Series/}{Computer Networks and the Internet} on my free time
 		
 		\vspace{0.03in}
+	\end{itemize}
 
+    \vspace{0.15in}
+    \resheading{Education}
+	\begin{itemize}
+	
+		\item \ressubheading{Dhaka University of Engineering \& Technology, Gazipur}{}{}{February 2018 - Aug 2022}
+		\begin{itemize}
+			\item BSc, Computer Science and Engineering
+		\end{itemize}
 
 	\end{itemize}
 
-	\vspace{0.20in}
-	
-	\resheading{Leadership Experiences (selected)}
+	\vspace{0.15in}
+	\resheading{Leadership and Experiences (selected)}
 	\begin{itemize}
-		\item \ressubheading{Vice President, Ex General Secretary - DUET Computer Society}{}{}{July 2021 - June 2022}
+
+    	\item \ressubheading{Culinary Advisory Committee Member - Therap BD Ltd.}{}{}{Feb 2025 - Current}
 		\begin{itemize}
-		    \item I managed and moderated DUETCS organization online repositories and profiles on \href{https://github.com/duetcs}{Github}, \href{https://duetcs.github.io}{Website}, \href{https://www.linkedin.com/company/duet-computer-society}{LinkedIn} and hosted offline events
+		    \item Selected breakfast and lunch menu for \textbf{450+ individuals }in home-grown kitchen, kept dietary preferences, allergies, and cultural considerations while designing menus, visited the kitchen for inspections, communicated with the chefs for healthier recipes
 		\end{itemize}
+        
+		\item \ressubheading{Vice President, Ex General Secretary - DUET Computer Society}{}{}{July 2021 - June 2022}
 		
 		\item \ressubheading{Senior Vice President - DUET Sports Club}{}{}{July 2021 - Jan 2022}
-		\begin{itemize}
-		    \item Organized several inter-department Cricket and Football tournaments, learned how tough it is to finish a sports tournament in a chaotic setting like south asia
-		\end{itemize}
+
+    	\item \textbf{Twenty years of farming experience} (from childhood to end of college, thrive in low resources), \textbf {One year of living experience in a jungle} (Bhawal National Park, Gazipur for CCA Turtle Conservation Centre)
 		
 	\end{itemize}
 
-	\vspace{0.20in}
-	
-	\resheading{Awards and Certifications}
-	\begin{itemize}
-	
-		\item \textbf{ITEE, Level 2 - FE, Full Pass, Examinee No: FE01-0644} (Nov 2021,  Information Technology Engineers Examination - ITEE is the national level IT Engineers Examination governed by \textbf{IPA, Japan}, considered as the IELTS of CS). Here's a \href{https://drive.google.com/file/d/1CcmWz6TqS86uMLqOgPsLc3_Xd5EdaMMO/view?usp=sharing}{demo question}.
-		
-		\item \textbf{Champion of Intra-DUET English Olympiad} (2019, Became the champion of Intra-DUET English Olympiad held by English Language Club, DUET)
-
-	\end{itemize}
-
-	\vspace{0.20in}
-	
+	\vspace{0.15in}
 	\resheading{Field of Interests}
 		\begin{itemize}
 			\item Computer Systems, Core CS, Cooking, Agriculture (grew up in a farming household), World Peace, Mass/Public Education, \href{https://www.instagram.com/obepari/}{Visual Communication}, Animal Conservation (Volunteered for a year at \url{} \href{https://www.instagram.com/creativeconservationalliance/}{Creative Conservation Alliance, Turtle Conservation Center, Bhawal National Park} in 2021 lockdown), Sports and Poetry, Chess, Math, Online forums (Hacker News, Reddit), Local and Global Economy and anything that stirs the intellectual interest
 		\end{itemize}
 
-
 \end{document}
-
